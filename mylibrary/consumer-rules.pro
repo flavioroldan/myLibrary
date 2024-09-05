@@ -1,2 +1,1 @@
--keep class com.example.mylibrary.model.request* {*;}
--keep class com.example.mylibrary.network.** {*;}
+-keep class com.example.mylibrary.model.** {*;}

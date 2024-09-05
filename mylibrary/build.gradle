@@ -46,7 +46,7 @@ dependencies {
 }
 
 
-afterEvaluate{
+/*afterEvaluate{
     publishing{
         publications{
             release(MavenPublication){
@@ -58,13 +58,12 @@ afterEvaluate{
             }
         }
     }
-}
+}*/
 
-/*
 publishing {
     repositories {
         maven {
-            name = 'localRepository'
+            name = 'Localhost'
             url = "file://${buildDir}/repo"
         }
     }
@@ -91,4 +90,3 @@ publishing {
         }
     }
 }
-*/
