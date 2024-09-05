@@ -46,7 +46,7 @@ dependencies {
 }
 
 
-/*afterEvaluate{
+afterEvaluate{
     publishing{
         publications{
             release(MavenPublication){
@@ -54,13 +54,13 @@ dependencies {
 
                 groupId='com.github.flavioroldan'
                 artifactId = 'myLibrary'
-                version = '1.0.0'
+                version = '1.1.0'
             }
         }
     }
-}*/
+}
 
-publishing {
+/*publishing {
     repositories {
         maven {
             name = 'Localhost'
@@ -89,4 +89,4 @@ publishing {
             }
         }
     }
-}
+}*/
